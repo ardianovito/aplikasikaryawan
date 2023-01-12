@@ -1,0 +1,37 @@
+GET http://localhost:5000/users
+###
+GET http://localhost:5000/users/32
+
+###
+POST http://localhost:5000/users
+Content-Type : application/json
+
+{
+    "name" : "af ",
+    "nik" : 4444444444443444,
+    "gender" : "male",
+    "address" : "bekasi",
+    "country" : "potgual",
+    "dateofbirth" : "09-12-1991",
+    "age" : 25
+
+}
+
+###
+PATCH http://localhost:5000/users/26
+Content-Type : application/json
+
+{
+    "name" : "petooo",
+    "nik" : 123456789123456,
+    "gender" : "female",
+    "address" : "bekasi",
+    "country" : "indonesia",
+    "dateofbirth" : "1997-12-09",
+    "age" : 24
+    
+
+}
+
+###
+DELETE http://localhost:5000/users/28
