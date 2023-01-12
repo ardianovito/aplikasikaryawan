@@ -1,0 +1,126 @@
+*{
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Times New Roman';
+}
+
+#header{
+    margin-top: 30px;
+    margin-left: 40px;
+}
+#searchwrap{
+    background-color: bisque;
+    border: 1px solid orange;
+    max-width: 120rem;
+    margin: 40px;
+    padding: 20px;
+}
+
+#title{
+    font-weight: bolder;
+    font-family: sans-serif;
+}
+#logo{
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+
+#nikfield{
+    padding-bottom: 20px;
+}
+
+.length{
+    width: 30rem;
+}
+
+#wrapadd{
+    margin-bottom: 3rem;
+    float: right;
+    padding-right: 3rem;
+}
+#add{
+    border: 1px solid black;
+    background-color: rgb(42, 128, 202);
+    padding: 20px 80px;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-right: 1rem;
+    font-weight: bolder;
+    font-family: sans-serif;
+}
+
+#search{
+    border: 1px solid black;
+    background-color: rgb(42, 128, 202);
+    padding: 20px 80px;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bolder;
+    font-family: sans-serif;
+}
+
+#search:hover{
+    background-color:rgb(2, 137, 255);
+}
+#add:hover{
+    background-color:rgb(2, 137, 255);
+}
+
+
+.table{
+    margin-right:2rem;
+    margin-left: 2rem;
+    max-width: 115rem;
+
+}
+
+#theadst{
+    background-color:rgb(118, 154, 185);
+    border: 2px solid black;
+}
+
+
+#btndetail{
+    color: chocolate;
+    font-family: sans-serif;
+    font-weight: bolder;
+    text-decoration: none;
+    padding-right: 5px;
+}
+
+#btnedit{
+    color: rgb(15, 129, 221);
+    font-family: sans-serif;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+#btnconfirmdelete{
+    background: none;
+    border: none;
+    color: rgb(221, 15, 15);
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+
+#btndetail:hover{
+    color: rgb(253, 165, 0);
+}
+
+#btnedit:hover{
+    color:rgb(92, 179, 255);
+}
+
+#btnconfirmdelete:hover{
+    color: rgb(19, 16, 16);
+}
+
+
+table, th, td {
+    color: black;
+    font-weight: bold;
+    font-family: sans-serif;
+  }

@@ -1,0 +1,54 @@
+.columns{
+    margin: 40px;
+    border: 2px solid black;
+    width: 35rem;
+    padding: 20px;
+    
+}
+.label{
+    color: black;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.input{
+    width: 30rem;
+    margin-bottom: 20px;
+}
+
+#selectcountry{
+    width: 30rem;
+    height: 3rem;
+    font-size: larger;
+}
+
+.btnedit{
+    margin-top: 30px;
+}
+
+#btnsubmit{
+    margin-right: 20px;
+    border-radius: 5px;
+    background-color: rgb(42, 128, 202);
+    color: white;
+    width: 10rem;
+    height: 3rem;
+}
+
+#btnback{
+    border-radius: 5px;
+    background-color: rgb(42, 128, 202);
+    color: white;
+    width: 10rem;
+    height: 3rem;
+    
+}
+
+#btnback a{
+    color: white;
+    text-decoration: none;
+}
+
+#selectgenderm{
+    margin-right: 40px;
+
+}

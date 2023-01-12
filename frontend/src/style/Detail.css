@@ -1,0 +1,17 @@
+#contentkaryawan{
+    background-color: blueviolet;
+    width: 30rem;
+    max-height: max-content;
+    margin: 5rem;
+    padding: 30px;
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    font-weight: bolder;
+    box-shadow: 5px 10px grey ;
+    
+}
+
+#list p{
+    font-size: 30px;
+}
+
